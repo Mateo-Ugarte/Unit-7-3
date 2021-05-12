@@ -7,10 +7,11 @@ function age () {
 
   if (userInput >= 17) {
     document.getElementById('answer').innerHTML = 'You can watch any movie!'
-  } else if (userInput >= 13) {
+  } 
+  else if (userInput >= 13) {
     document.getElementById('answer').innerHTML = 'You can watch any movie with an adult!'
   }
-   else if (userInput >= 5) {
-     document.getElementById('answer').innerHTML = 'You can watch any PG movie or G movie!'
+  else if (userInput >= 5) {
+    document.getElementById('answer').innerHTML = 'You can watch any PG movie or G movie!'
    }
 }
